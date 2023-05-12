@@ -1,0 +1,178 @@
+		body {
+			background-color: #1a1a1a;
+			color: white;
+		}
+		.navbar {
+			background-color: #343a40;
+            position: fixed;
+            width: 100%;
+			z-index: 2;
+		}
+		.navbar-brand {
+			color: white;
+			font-weight: bold;
+		}
+		.navbar-brand img {
+			height: 50px;
+			width: 50px;
+			margin-right: 10px;
+		}
+		.nav-link {
+			color: white;
+		}
+		.nav-link:hover {
+			color: #c8cbcf;
+		}
+		#dispdate{
+			color: white;
+		}
+        #content-wrapper {
+            padding-top: 100px;
+            padding-bottom: 100px;
+            z-index: -1;
+            display: flex;
+            flex-direction: column;
+			color: white;
+			font-family: 'Courier New', Courier, monospace;
+			font-size: large;
+        }
+        #image1{
+            width: 30%;
+            height: 30%;
+			-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+			filter: grayscale(100%);
+        }
+		#p1{
+			text-align: center;
+		}
+		#image1:hover{
+			-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+			filter: grayscale(0%);
+		}
+		#hello:hover{
+			color: red;
+		}
+		#name1:hover{
+			color: green;
+		}
+		#p1:hover{
+			color: blue;
+		}
+		#ploc:hover{
+			color: red; 
+		}
+		#ploc:hover::after{
+			content: ", City of Love";
+		}
+		#pbdy:hover{
+			color: green; 
+		}
+		#pbdy:hover::after{
+			content: " am 25";
+		}
+        .content-home{
+            text-align: center;
+            margin-top: 5%;
+        }
+        #p1{
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+		#intro{
+			display: flex;
+			flex-direction: column;
+			padding-left: 20%;
+			margin-top: -25%;
+		}
+        #about{
+            padding-top: 200px;
+            padding-bottom: 100px;
+            z-index: -1;
+            display: flex;
+            flex-direction: column;
+			margin-left: auto; 
+			margin-right: auto;
+        }
+		#content-about{
+			text-align: center;
+			font-size: larger;
+			font-family: 'Courier New', Courier, monospace;
+		}
+		#exp{
+			padding-top: 3%;
+			font-family: 'Courier New', Courier, monospace;
+		}
+        #skills{
+          color: white;
+		  margin: auto;
+		  width: 50% !important;
+        }
+		td{
+			width: 300px;
+		}
+		.skillwrap{
+			text-align: center;
+		}
+		.skillcont{
+			display: none;
+		}
+		.skillwrap:hover .skillcont{
+			display: block;
+		}
+		.checked {
+			color: orange;
+		}
+		.modal-content{
+			color: black;
+		}
+		.plogo{
+			width: 50px;
+			height: 50px;
+		}
+        #gallery{
+            padding-top: 100px;
+            padding-bottom: 100px;
+            z-index: -1;
+            display: flex;
+            flex-direction: column;
+        }
+        #contacts{
+            padding-top: 100px;
+            padding-bottom: 100px;
+            z-index: -1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .ilink{
+            width: 50px;
+            height: 50px;
+            -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(100%);
+        }
+        .ilink:hover{
+            width: 80px;
+            height: 80px;
+            -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(0%);
+        }
+		.footer {
+			background-color: #343a40;  
+			color: white;
+			text-align: center;
+			padding: 10px 0;
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+			z-index: 2;
+		}
+		@media (max-width: 600px) {
+			#image1{
+				margin-left: 35%;
+			}
+			#intro{
+				margin-top: 10%;
+				padding-right: 9%;
+				padding-left: 0%;
+			}
+		}
